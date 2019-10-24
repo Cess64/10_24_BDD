@@ -1,0 +1,14 @@
+Yo !!
+
+Donc, il y a trois dossiers : un par exo
+A priori, toutes les migrations sont passées, les 3 BDD sont OK
+
+Je précise que pour le dernier exo, je ne suis pas allée au bout. Je n'ai donné au messages que des expéditeurs 
+ils n'ont pas de destinataires....i.e. qu'il n'y a pas de "optional"...
+
+Sinon, une fois dans le dossier, il faut 
+
+> bundle install
+> rails db:migrate
+> rails db:seed
+> rails c         ==> t'es dans la console, tu peux t'amuser !
